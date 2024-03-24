@@ -1,0 +1,148 @@
+.moreAbout__container {
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 86px;
+}
+.moreAbout__inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.__absolute {
+  position: absolute;
+  top: -151px;
+  left: -150px;
+}
+
+.moreAbout__heading {
+  color: #323232;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 124%; /* 49.6px */
+  letter-spacing: -0.44px;
+  span {
+    color: #00b7af;
+  }
+}
+.didYouKnow {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background: #f5f5f5;
+}
+
+.didYouKnow__heading {
+  color: #323232;
+
+  font-family: "Satoshi", sans-serif;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146%; /* 29.2px */
+  letter-spacing: -0.22px;
+}
+
+.didYouKnow__info {
+  color: #adadad;
+
+  font-family: "Satoshi", sans-serif;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146%; /* 23.36px */
+  letter-spacing: -0.176px;
+  span {
+    color: #009e94;
+    font-family: "Satoshi", sans-serif;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 146%; /* 23.36px */
+    letter-spacing: -0.176px;
+    text-decoration-line: underline;
+  }
+}
+
+.allSpices {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.spicy1 {
+  padding: 16px;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.spicy__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+.spicy__image {
+  height: 58px;
+  width: 80px;
+}
+
+.spicy__name {
+  color: #323232;
+  font-family: "Satoshi", sans-serif;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146%; /* 23.36px */
+  letter-spacing: -0.176px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1000px) {
+  .moreAbout__inner {
+    padding: 40px 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .moreAbout__heading {
+    font-size: 26px;
+    max-width: 220px;
+  }
+  .didYouKnow__heading {
+    font-size: 14px;
+  }
+  .didYouKnow__heading {
+    font-size: 16px;
+  }
+  .didYouKnow__info {
+    font-size: 12px;
+    span {
+      font-size: 12px;
+    }
+  }
+  .moreAbout__container {
+    padding: 15px 0;
+  }
+  .__absolute {
+    height: 113px;
+    top: -40px;
+    left: -30px;
+  }
+}
