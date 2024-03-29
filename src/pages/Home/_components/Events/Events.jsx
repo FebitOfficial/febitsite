@@ -39,8 +39,12 @@ const Events = () => {
       <div className=" max-w-[358px] md:max-w-[1240px] m-auto flex flex-col gap-[16px] pt-[37px]">
         {eventsCards.map((item) => (
           <div className="bg-white card-shadow-1 w-full p-[10px] md:p-[20px] rounded-[10px] flex items-center gap-[10px] md:gap-[40px]">
-            <div className="max-w-[144px] max-h-[90px] md:max-w-[295px] md:max-h-[175px]">
-              <img src={item.img} className="w-full h-full" alt="" />
+            <div className="w-[695px] h-[175px]">
+              <img
+                src={item.img}
+                className="w-full object-cover rounded-[12px] h-full"
+                alt=""
+              />
             </div>
             <div className="flex flex-col gap-2">
               <div className="flex flex-col">

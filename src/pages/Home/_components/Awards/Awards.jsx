@@ -77,12 +77,7 @@ const Awards = () => {
                     awardModal.onOpen();
                   }}
                 >
-                  <div
-                    style={{
-                      maxWidth: isMobile ? `${item.mw}px` : `${item.w}px`,
-                      maxHeight: isMobile ? `${item.mh}px` : `${item.h}px`,
-                    }}
-                  >
+                  <div className="w-[250px] h-[150px]">
                     {" "}
                     <img
                       src={item.img}
@@ -92,7 +87,7 @@ const Awards = () => {
                   </div>
 
                   <p className="satoshi text-[9.63px] md:text-[16px] font-[700]">
-                    {item.title}
+                    Work Name
                   </p>
                 </div>
               </SwiperSlide>

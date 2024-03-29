@@ -7,10 +7,9 @@ import instagram from "../../../../assets/Images/Home/instagram.png";
 import youtube from "../../../../assets/Images/Home/youtube.png";
 import linkedin from "../../../../assets/Images/Home/linkedin.png";
 import twitter from "../../../../assets/Images/Home/twitter.png";
-import { Logo } from "../../../../assets/Icons/Navbar/Logo";
 import { Link } from "react-router-dom";
 import Message from "../../../../assets/Icons/Home/Message";
-
+import Logo from "../../../../assets/Images/logo.jpg";
 const Footer = () => {
   return (
     <>
@@ -18,13 +17,11 @@ const Footer = () => {
         <div className="footer__inner">
           <div className="company__info">
             <div className="header">
-              <Logo />
-              <img src={HeroCertifiedLog} alt="" className="footer__hero" />
+              <img src={Logo} alt="" className="w-[270px] h-[90px]" />
             </div>
             <p className="company__about">
-              NHC Foods Limited <br /> D-22/8, TTC Industrial Area,
-              <br /> Near Balmer Lawrie, MIDC,
-              <br /> Turbhe, Navi Mumbai – 400705 (India)
+              Ad eu adipisicing enim incididunt dolor. P ariatur sunt non tempor
+              nostrud anim officia exercitation ullamco excepteur
             </p>
           </div>
           <div className="footer__links">
@@ -45,11 +42,11 @@ const Footer = () => {
                 Fax : <span> +91-22-4881 5101</span>
               </p>
               <p className="footer__contact1">
-                Website : <span> www.nhcgroup.com</span>
+                Website : <span> www.febit.com</span>
               </p>
               <p className="footer__contact1">
-                Email : <span>info@nhcgroup.com </span> |{" "}
-                <span>grievances@nhcgroup.com</span>
+                Email : <span>info@febit.com </span> |{" "}
+                <span>grievances@febit.com</span>
               </p>
             </div>
           </div>

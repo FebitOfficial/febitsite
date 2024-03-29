@@ -16,6 +16,7 @@ import KnowMoreAbout from "./_components/KnowMoreAbout/KnowMoreAbout";
 import HeroVideo2 from "../../assets/Videos/HeroVideo2.mp4";
 import Clearning from "../../assets/Icons/Home/BestKnown/Clearning";
 import HeroContainer1 from "../../assets/Images/heroContainer1.png";
+import ContactUs from "./_components/ContactUs";
 const Home = () => {
   return (
     <>
@@ -72,11 +73,12 @@ const Home = () => {
       </div>
       <BestKnown />
       <Industries />
-      {/* <Awards /> */}
+      <Awards />
       <Testimonials />
-      {/* <Events /> */}
+      <Events />
+      <ContactUs />
       {/* <KnowMoreAbout /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

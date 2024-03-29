@@ -1,5 +1,5 @@
 .footer__container {
-  background: #f5f5f5;
+  background: white;
   /* background: #9f9696; */
 }
 
@@ -28,13 +28,14 @@
   font-family: "Satoshi", sans-serif !important;
 
   margin: 0;
+  margin-top: 12px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 146%; /* 23.36px */
   letter-spacing: -0.176px;
   max-width: 293px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .footer__hero {
