@@ -7,7 +7,7 @@ const Events = () => {
   const isMobile = useMediaQuery("only screen and (max-width:620px)");
   return (
     <div className="pt-[40px] pb-[20px] md:pt-[50px] md:pb-[35px]  bg-bgSecondary">
-      <h1 className="text-center text-[26px] max-w-[203px] md:max-w-full m-auto md:m-0 md:text-[40px] font-[600]">
+      <h1 className="text-center text-[26px]  md:max-w-full m-auto md:m-0 md:text-[40px] font-[600]">
         Upcoming Projects
       </h1>
       <div className="flex items-center py-[20px]">
@@ -42,7 +42,7 @@ const Events = () => {
             <div className="">
               <img
                 src={item.img}
-                className="w-full object-cover rounded-[12px] h-full"
+                className="w-[650px] object-cover rounded-[12px] h-[200px]"
                 alt=""
               />
             </div>
