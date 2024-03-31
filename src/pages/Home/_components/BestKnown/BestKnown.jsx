@@ -15,20 +15,22 @@ const BestKnown = () => {
   return (
     <>
       <div className="flex flex-col pt-[40px] bg-white border-b-[1px] border-gray-100">
-        <h1 className="text-center text-[26px] text-primary md:text-[40px] font-[600] border-b-[1px] pb-[40px] border-neutral-300">
+        <h1 className="text-center text-[26px] text-primary md:text-[40px] font-[600] border-b-[1px] pb-[20px] border-neutral-300">
           We are <span className="text-secondary ">best known</span> for
         </h1>
         {/* <hr /> */}
-        <div className="md:flex-row flex-col min-w-[1280px] m-auto flex gap-[40px] md:gap-[156px] items-center pt-[40px]">
+        <div className="md:flex-row flex-col lg:min-w-[1280px] m-auto flex gap-[20px] md:gap-[156px] items-center pt-[20px]">
           <div className="">
-            <h1 className="text-[20px] text-primary md:text-[36px] font-[600] tracking-[-1.1px]">
+            <h1 className="text-[24px] text-primary md:text-[36px] font-[600] tracking-[-1.1px]">
               Our Value
             </h1>
           </div>
           <div className="md:flex-row flex-col flex md:justify-between justify-between md:gap-[40px]   md:items-center  w-[100%] md:w-[75%]">
             {bestKnownItems.map(({ title, number: Number }, idx) => (
               <div className="flex items-center gap-[24px]">
-                <p className="text-[64px] text-primary font-bold">0{idx + 1}</p>
+                <p className="text-[32px] md:text-[64px] text-primary font-bold">
+                  0{idx + 1}
+                </p>
 
                 <p className="satoshi text-[#323232] leading-[24px] tracking-[-1.1px] font-[600] text-[20px] w-[max-content] md:w-[127px]">
                   {title}
@@ -46,11 +48,11 @@ const BestKnown = () => {
             />
 
             <img src="" alt="" />
-            <div className="w-[40%]">
-              <div className="w-full flex flex-col py-[40px] items-start md:items-center px-[30px] md:px-0 gap-[35px] bg-white ">
-                <div className="flex flex-col gap-[40px] items-start md:items-center ">
+            <div className="w-[90%] mx-auto md:w-[40%]">
+              <div className="w-full flex flex-col py-[40px] items-center md:items-center px-[30px] md:px-0 gap-[35px] bg-white ">
+                <div className="flex flex-col gap-[40px] items-center md:items-center ">
                   {bestKnowsStats.map((item) => (
-                    <div className="flex flex-col items-start md:items-center gap-[-50px] justify-center">
+                    <div className="flex flex-col items-center md:items-center gap-[-50px] justify-center">
                       <h1 className="flex text-primary tracking-[-2px] text-[36px] md:text-[60px] leading-[-21px] font-[600] ">
                         <AnimatedNumbers
                           transitions={() => ({
@@ -72,28 +74,18 @@ const BestKnown = () => {
                     </div>
                   ))}
                 </div>
-                <h1 className="text-[22px] w-[220px] block md:hidden font-[600]">
+                <h1 className="text-[22px] text-center w-full block md:hidden font-[600]">
                   Our Signature Brand
                 </h1>
-                <div className="flex md:px-[66px] gap-[20px] md:gap-[60px]">
+                <div className="flex max-w-[95%] mx-auto md:px-[66px] gap-[20px] md:gap-[60px]">
                   <img
                     src={BestKnowStatImg2}
-                    className="hidden md:block object-cover w-[200px]"
+                    className="block max-w-[50%] "
                     alt=""
                   />
                   <img
                     src={BestKnowStatImg2}
-                    className="hidden md:block w-[200px]"
-                    alt=""
-                  />
-                  <img
-                    src={BestKnowStatImg2}
-                    className="block md:hidden w-[200px] "
-                    alt=""
-                  />
-                  <img
-                    src={BestKnowStatImg2}
-                    className="block md:hidden w-[200px] "
+                    className="block max-w-[50%] "
                     alt=""
                   />
                 </div>

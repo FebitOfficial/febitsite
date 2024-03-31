@@ -8,7 +8,7 @@ const Events = () => {
   return (
     <div className="pt-[40px] pb-[20px] md:pt-[50px] md:pb-[35px]  bg-bgSecondary">
       <h1 className="text-center text-[26px] max-w-[203px] md:max-w-full m-auto md:m-0 md:text-[40px] font-[600]">
-        Upcoming events & exhibitions
+        Upcoming Projects
       </h1>
       <div className="flex items-center py-[20px]">
         {" "}
@@ -38,8 +38,8 @@ const Events = () => {
 
       <div className=" max-w-[358px] md:max-w-[1240px] m-auto flex flex-col gap-[16px] pt-[37px]">
         {eventsCards.map((item) => (
-          <div className="bg-white card-shadow-1 w-full p-[10px] md:p-[20px] rounded-[10px] flex items-center gap-[10px] md:gap-[40px]">
-            <div className="w-[695px] h-[175px]">
+          <div className="bg-white flex-col md:flex-row card-shadow-1 w-full p-[10px] md:p-[20px] rounded-[10px] flex items-center gap-[10px] md:gap-[40px]">
+            <div className="">
               <img
                 src={item.img}
                 className="w-full object-cover rounded-[12px] h-full"
@@ -56,7 +56,7 @@ const Events = () => {
                 </p>
               </div>
               <p className="text-[10px] md:text-[20px] font-[400] satoshi tracking-[-0.6px]">
-                {isMobile ? item.desc.substring(0, 120) + "..." : item.desc}
+                {item.desc}
               </p>
             </div>
           </div>

@@ -68,7 +68,7 @@ const Awards = () => {
           >
             {awardItems.map((item, idx) => (
               <SwiperSlide
-                style={{ maxHeight: "260px", paddingBottom: "80px" }}
+                style={{ maxHeight: "260px", paddingBottom: "40px" }}
               >
                 <div
                   className="flex flex-col gap-[20px] self-end items-center justify-between"
@@ -77,7 +77,7 @@ const Awards = () => {
                     awardModal.onOpen();
                   }}
                 >
-                  <div className="w-[250px] h-[150px]">
+                  <div className="max-w-[250px] max-h-[150px]">
                     {" "}
                     <img
                       src={item.img}

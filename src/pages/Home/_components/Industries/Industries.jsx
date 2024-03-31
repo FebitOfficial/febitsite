@@ -9,7 +9,7 @@ import IndustryImg2 from "../../../../assets/Images/IndustryImg2.png";
 const Industries = () => {
   const mobileScreen = useMediaQuery("only screen and (max-width: 620px)");
   return (
-    <div className="bg-white border-gray-100 border-t-[1px] mt-[75px] py-[70px] w-full sc600:pb-[150px] sc1200:pb-[70px]  relative">
+    <div className="bg-white border-gray-100 border-t-[1px] md:mt-[75px] py-[40px] md:py-[70px] w-full sc600:pb-[150px] sc1200:pb-[70px]  relative">
       <h1 className="w-[250px] text-primary  m-auto md:w-full text-center text-[26px] md:text-[36px] pb-[30px] md:pb-[70px] font-[600]">
         We serve a set of{" "}
         <span className="text-secondary">diverse industries</span>
@@ -56,7 +56,7 @@ const Industries = () => {
       {mobileScreen && <IndustryMobileCards />}
       <img
         src={IndustryImg2}
-        className="absolute right-[40px] top-[-10%] max-w-[250px]"
+        className="absolute hidden md:block right-[40px] top-[-10%] max-w-[250px]"
         alt=""
       />
       <img

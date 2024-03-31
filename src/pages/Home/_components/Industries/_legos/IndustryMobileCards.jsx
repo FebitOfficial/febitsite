@@ -49,9 +49,7 @@ const IndustryMobileCards = () => {
               idx !== 1 && "border-r-[1px] "
             } flex flex-col items-center pb-[10px] justify-center border-b-[1px] border-neutral-300`}
           >
-            <div className="py-[30px]">
-              <img src={item.img} className="w-[60px] h-[60px]" alt="" />
-            </div>
+            <div className="py-[30px]">{item.img}</div>
             <div className="flex flex-col gap-[5px]">
               <h1 className="font-[700] text-center satoshi text-[14px]">
                 {item.title}
@@ -68,9 +66,7 @@ const IndustryMobileCards = () => {
           <div
             className={`w-[195px] h-[240px]  flex flex-col items-center pb-[10px] justify-center `}
           >
-            <div className="py-[30px]">
-              <img src={item.img} className="w-[60px] h-[60px]" alt="" />
-            </div>
+            <div className="py-[30px]">{item.img}</div>
             <div className="flex flex-col gap-[5px]">
               <h1 className="font-[700] text-center satoshi text-[14px]">
                 {item.title}
