@@ -28,21 +28,24 @@ const Home = () => {
           </div>
           <div className="flex flex-col gap-[15px]  font-[500] text-[12px] text-[#ADADAD] w-full md:w-[90%]">
             <p className="satoshi">
-              Nostrud commodo excepteur qui irure officia esse est esse est
-              velit aliquip consectetur occaecat labore. Minim ullamco pariatur
-              anim ullamco laborum id deserunt laboris ut deserunt voluptate
-              commodo amet. Veniam aliqua commodo eu quis. Ea irure commodo
-              reprehenderit culpa ipsum amet eiusmod.
+              Explore our comprehensive range of offerings, including TMT, Steel
+              Plates, Structural Steel, Bitumen, Cement, Pipes, RMC,
+              Electricals, Tiles and Flooring products, Crash Barriers, Liquid
+              Bitumen Emulsion, LDO, Oil, Abrasives, and Power Tools, all
+              meticulously selected to meet your construction needs with
+              precision and quality.
             </p>
             <p className="satoshi">
-              Sint consectetur officia commodo est. Laborum duis ad dolor ea.
-              Lorem excepteur aliquip dolor nulla mollit aliquip adipisicing
-              qui. Voluptate amet dolore ea pariatur excepteur ullamco nostrud
-              duis dolor voluptate. Voluptate tempor eiusmod anim incididunt
-              labore amet laborum nostrud ex officia excepteur enim anim. In
-              labore deserunt excepteur sit amet exercitation voluptate. Laboris
-              ea do deserunt labore do mollit cupidatat ipsum quis elit sunt
-              tempor culpa.
+              From high-grade TMT and durable steel plates to reliable
+              structural steel and essential construction materials such as
+              bitumen and cement, we offer a diverse portfolio to support your
+              projects. Our product lineup extends beyond steel, encompassing
+              essential components like pipes, RMC, electricals, tiles, and
+              flooring products, ensuring a one-stop destination for all your
+              construction needs. Additionally, we provide specialized items
+              like crash barriers, liquid bitumen emulsion, LDO, oil, abrasives,
+              and power tools. Trust us to be your reliable partner in building
+              a solid foundation for success.
             </p>
             <div className="flex justify-between">
               <div>
