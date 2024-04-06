@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { awardItems, awardModalItems, getAwardImgStyles } from "./index";
+import { awardItems, awardModalItems } from "./index";
 import {
   Navigation,
   Pagination,

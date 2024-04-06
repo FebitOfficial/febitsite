@@ -1,7 +1,5 @@
 import React from "react";
 import { industryItems } from ".";
-import IndustrySpice1 from "../../../../assets/Images/Home/IndustrySpice1.png";
-import IndustrySpice2 from "../../../../assets/Images/Home/IndustrySpice2.png";
 import { useMediaQuery } from "@react-hook/media-query";
 import IndustryMobileCards from "./_legos/IndustryMobileCards";
 import IndustryImg1 from "../../../../assets/Images/IndustryImg1.jpg";

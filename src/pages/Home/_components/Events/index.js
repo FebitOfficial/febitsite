@@ -1,6 +1,3 @@
-import EventCardImg2 from "../../../../assets/Images/Home/EventCardImg2.png";
-import EventCardImg3 from "../../../../assets/Images/Home/EventCardImg3.png";
-import EventCardImg4 from "../../../../assets/Images/Home/EventCardImg4.png";
 import InfoCardImg1 from "../../../../assets/Images/infoImage.jpg";
 import InfoCardImg2 from "../../../../assets/Images/inforImage2.jpg";
 import InfoCardImg3 from "../../../../assets/Images/infoImage3.jpg";

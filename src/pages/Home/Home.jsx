@@ -1,20 +1,19 @@
 import React from "react";
 import HomeCapsule from "./_components/HomeCapsule/HomeCapsule";
-import HeroImg from "../../assets/Images/Home/HeroImg.png";
+
 import HomeText from "./_components/HomeText/HomeText";
 import HeroCertifiedLog from "../../assets/Images/CertifiedLogo.jpg";
-import HeroSpice1 from "../../assets/Images/Home/HeroSpice1.png";
+
 import BestKnown from "./_components/BestKnown/BestKnown";
 import Industries from "./_components/Industries/Industries";
 import Testimonials from "./_components/Testimonials/Testimonials";
 import Events from "./_components/Events/Events";
 import Awards from "./_components/Awards/Awards";
-import HeroMobile from "../../assets/Images/Home/HeroMobile.png";
+
 import Footer from "./_components/Footer/Footer";
-import KnowMoreAbout from "./_components/KnowMoreAbout/KnowMoreAbout";
 
 import HeroVideo2 from "../../assets/Videos/HeroVideo2.mp4";
-import Clearning from "../../assets/Icons/Home/BestKnown/Clearning";
+
 import HeroContainer1 from "../../assets/Images/heroContainer1.png";
 import ContactUs from "./_components/ContactUs";
 const Home = () => {

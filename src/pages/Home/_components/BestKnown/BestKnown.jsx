@@ -1,15 +1,9 @@
 import React from "react";
-import { bestKnownItems, bestKnownTags, bestKnowsStats } from ".";
-import BestKnownImg from "../../../../assets/Images/Home/BestKnownImg.png";
-import BestKnownImgMobile from "../../../../assets/Images/Home/BestKnownImgMobile.png";
-import BestKnowOurLegacy from "../../../../assets/Images/Home/BestKnowOurLegacy.png";
-import BestKnowStatImg1 from "../../../../assets/Images/Home/BestKnownStatImg1.png";
+import { bestKnownItems, bestKnowsStats } from ".";
+
 import BestKnowStatImg2 from "../../../../assets/Images/Home/BestKnowStatImg2.png";
-import BestKnowStatMobile1 from "../../../../assets/Images/Home/BestKnownStatMobile1.png";
-import BestKnowStatMobile2 from "../../../../assets/Images/Home/BestKnownStatMobile2.png";
-import OurExpertise from "./_legos/OurExpertise";
+
 import AnimatedNumbers from "react-animated-numbers";
-import FeatureImage1 from "../../../../assets/Images/FeatureImage1.jpg";
 import BestKnownImg1 from "../../../../assets/Images/bestknownImg.png";
 const BestKnown = () => {
   return (

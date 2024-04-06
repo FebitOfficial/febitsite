@@ -1,14 +1,10 @@
 import React from "react";
 import "./Footer.css";
-
-// import HeroMobile from "../../../../assets";
-import HeroCertifiedLog from "../../../../assets/Images/Home/HeroCertifiedLog.png";
 import instagram from "../../../../assets/Images/Home/instagram.png";
 import youtube from "../../../../assets/Images/Home/youtube.png";
 import linkedin from "../../../../assets/Images/Home/linkedin.png";
 import twitter from "../../../../assets/Images/Home/twitter.png";
 import { Link } from "react-router-dom";
-import Message from "../../../../assets/Icons/Home/Message";
 import Logo from "../../../../assets/Images/logo.jpg";
 const Footer = () => {
   return (

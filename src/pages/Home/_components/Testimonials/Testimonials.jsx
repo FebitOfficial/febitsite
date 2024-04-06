@@ -1,7 +1,6 @@
 import React from "react";
 import { testimonialsItems } from "./index";
 import TestimonialsQuote from "../../../../assets/Images/Home/TestimonialsQuotes.png";
-import TestimonialsPeanuts from "../../../../assets/Images/Home/TestimonialsPeanuts.png";
 import {
   Navigation,
   Pagination,
