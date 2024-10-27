@@ -20,16 +20,16 @@ export const bestKnownItems = [
 
 export const bestKnowsStats = [
   {
-    title: "Countries Worldwide",
-    number: "100+",
+    title: "Cities",
+    number: "10+",
   },
   {
-    number: "200+",
-    title: "Products avaiable",
+    number: "20+",
+    title: "Road Constructions",
   },
   {
     number: "150+",
-    title: "Overseas Clients",
+    title: "Machines",
   },
 ];
 

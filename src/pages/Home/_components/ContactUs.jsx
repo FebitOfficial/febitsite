@@ -12,7 +12,7 @@ const ContactUs = () => (
     {/* <h1 className="text-center text-[52px] font-semibold py-[20px]">
       Contact Us
     </h1> */}
-    <div className="w-[90%] m-auto rounded-[25px] overflow-hidden shadow-2">
+    <div className="w-[90%] m-auto rounded-[25px] overflow-hidden shadow-2 border-neutral-300">
       <div style={{ width: "100%" }}>
         <div
           style={{ width: "100%", height: "500px" }}
@@ -38,7 +38,7 @@ const ContactUs = () => (
         </div>
       </div>
     </div>
-    <div className="md:hidden flex flex-col md:flex-row gap-[180px] bg-white items-start w-full md:w-[90%] m-auto py-[10px] px-[20px] md:mt-[100px]">
+    <div className="md:hidden flex flex-col md:flex-row gap-[180px] bg-white items-start w-full text-neutral-500 md:w-[90%] m-auto py-[10px] px-[20px] md:mt-[100px]">
       <div className="md:w-[40%] w-full  md:mt-[0] shadow-2 bg-white">
         <div className="w-[100%]">
           <DesignerForm w="100%" />
@@ -46,23 +46,23 @@ const ContactUs = () => (
       </div>
     </div>
     <div className="flex w-[90%] py-[24px] m-auto flex-col gap-[10px]">
-      <h1 className="text-[28px] font-medium">Customer Support</h1>
+      <h1 className="text-[28px] ">Customer Support</h1>
       <div className="border-[1px]  py-[30px] px-[48px] border-neutral-300 rounded-[24px] flex flex-col md:flex-row gap-[40px] md:gap-[20px]">
         <div className="md:w-[25%] flex items-center flex-col md:border-r-[1px] border-neutral-300 px-[10px] gap-[15px]">
           <Support1 />
           <p className="text-center font-semibold text-[20px] leading-[120%] text-neutral-500">
             Have a problem with a project?
           </p>
-          <button className="py-[5px] bg-primaryC px-[15px] rounded-[8px] text-neutral-500 text-[16px] font-medium">
+          <button className="py-[5px] bg-primaryC px-[15px] rounded-[8px] text-neutral-500 text-[16px]">
             Call Support
           </button>
         </div>
-        <div className="md:w-[25%] flex items-center flex-col md:border-r-[1px] border-neutral-300 px-[10px] gap-[15px]">
+        <div className="md:w-[25%] flex items-center flex-col md:border-r-[1px] border-neutral-300 text-neutral-500 px-[10px] gap-[8px]">
           <Icon
             icon="ph:address-book-thin"
             width="68"
             height="68"
-            style={{ color: " #feb900" }}
+            style={{ color: "#fc7f03" }}
           />
           <h2 className="font-semibold text-[18px] text-center">Visit us</h2>
           <p className="text-center">For service requests or complaints</p>
@@ -79,7 +79,7 @@ const ContactUs = () => (
             <h2 className="font-semibold text-[18px] text-center">Email us</h2>
             <p>For service requests or complaints</p>
             <p>
-              write to <span className="text-primaryC">care@homelane.com</span>
+              write to <span className="text-primaryC">info@blg&sons.com</span>
             </p>
           </div>
         </div>
@@ -89,7 +89,7 @@ const ContactUs = () => (
             <h2 className="font-semibold text-[18px] text-center">Call us</h2>
             <p>For service requests or complaints</p>
             <p>
-              write to <span className="text-primaryC">care@homelane.com</span>
+              write to <span className="text-primaryC">info@blg&sons.com</span>
             </p>
           </div>
         </div>

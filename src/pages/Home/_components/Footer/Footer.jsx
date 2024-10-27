@@ -5,7 +5,7 @@ import youtube from "../../../../assets/Images/Home/youtube.png";
 import linkedin from "../../../../assets/Images/Home/linkedin.png";
 import twitter from "../../../../assets/Images/Home/twitter.png";
 import { Link } from "react-router-dom";
-import Logo from "../../../../assets/Images/logo.jpg";
+import Logo from "assets/Icons/logo.png";
 const Footer = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="footer__inner">
           <div className="company__info">
             <div className="header">
-              <img src={Logo} alt="" className="w-[270px] h-[90px]" />
+              <img src={Logo} alt="" className="w-[270px] h-[60px] mt-12" />
             </div>
             <p className="company__about">
               Ad eu adipisicing enim incididunt dolor. P ariatur sunt non tempor
@@ -26,23 +26,21 @@ const Footer = () => {
             <Link to="/">products</Link>
             <Link to="/">investors</Link>
             <Link to="/">buzz</Link>
-            <Link to="/">Spice Encyclopedia</Link>
+            {/* <Link to="/">Spice Encyclopedia</Link> */}
           </div>
           <div className="footer__contact__info">
             <div className="footer__contact__header">Contact us via</div>
             <div className="contacts">
-              <p className="footer__contact1">
+              {/* <p className="footer__contact1">
                 Tel : <span>+91-22-4881 5100</span> (30 Lines)
               </p>
               <p className="footer__contact1">
                 Fax : <span> +91-22-4881 5101</span>
-              </p>
+              </p> */}
+
               <p className="footer__contact1">
-                Website : <span> www.febit.com</span>
-              </p>
-              <p className="footer__contact1">
-                Email : <span>info@febit.com </span> |{" "}
-                <span>grievances@febit.com</span>
+                Email : <span>info@blgandsons.com </span> | <br />
+                <span>grievances@blgandsons.com</span>
               </p>
             </div>
           </div>

@@ -68,21 +68,6 @@ const BestKnown = () => {
                     </div>
                   ))}
                 </div>
-                <h1 className="text-[22px] text-center w-full block md:hidden font-[600]">
-                  Our Signature Brand
-                </h1>
-                <div className="flex max-w-[95%] mx-auto md:px-[66px] gap-[20px] md:gap-[60px]">
-                  <img
-                    src={BestKnowStatImg2}
-                    className="block max-w-[50%] "
-                    alt=""
-                  />
-                  <img
-                    src={BestKnowStatImg2}
-                    className="block max-w-[50%] "
-                    alt=""
-                  />
-                </div>
               </div>
               {/* <img
                 src={BestKnowOurLegacy}

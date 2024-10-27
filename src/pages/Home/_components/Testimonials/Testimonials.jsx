@@ -16,12 +16,12 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 const Testimonials = () => {
   return (
-    <div className="max-h-[403px]  ">
+    <div className="max-h-[403px] mx-auto w-[90%]">
       <div className="w-full pt-[50px] pb-[70px] relative  ">
         <h1 className="pb-[30px] md:pb-[50px] text-center font-[600] text-[26px] md:text-[36px]">
           Testimonials
         </h1>
-        <div className="max-w-[368px] md:max-w-[1340px] m-auto md:m-0 md:ml-auto    3xl:m-auto">
+        <div className="max-w-[368px] md:max-w-full m-auto md:m-0 md:m-auto    3xl:m-auto">
           <Swiper
             id="testimonials"
             modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
@@ -41,7 +41,7 @@ const Testimonials = () => {
               },
 
               1224: {
-                slidesPerView: 3.15,
+                slidesPerView: 4.15,
                 slidesPerGroup: 1,
                 delay: 1000,
                 spaceBetween: 20,
@@ -53,15 +53,13 @@ const Testimonials = () => {
               <SwiperSlide>
                 <div className="flex  flex-col gap-[15px] md:gap-[1px] max-w-[280px]  md:max-w-[460px] p-[20px] rounded-[10px] border-[0.5px] border-neutral-300">
                   <p className="text-[11.56px] max-w-[206px] tracking-[-0.1px] md:max-w-[max-content] font-[600] md:text-[14px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus fringilla cursus urna non mollis. Praesent iaculis
-                    eleifend vehicula.”
+                    {item.desc}
                   </p>
                   <div className="flex justify-between items-end">
                     <div className="flex items-center gap-[10px]">
                       <img
                         src={item.img}
-                        className="w-[30px] h-[30px]"
+                        className="w-[30px] h-[30px] rounded-full object-cover"
                         alt=""
                       />
                       <div>

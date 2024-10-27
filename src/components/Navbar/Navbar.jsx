@@ -5,14 +5,14 @@ import { Download } from "../../assets/Icons/Navbar/Dowload";
 import Button from "../atoms/Button/Button";
 import { ChevronDown } from "../../assets/Icons/Navbar/Chevron";
 import { Hamburger } from "../../assets/Icons/Navbar/Hamburger";
-import Logo from "../../assets/Images/logo.jpg";
+import Logo from "../../assets/Icons/logo.png";
 const Navbar = () => {
   const [navbarLeft, setNavbarLeft] = useState("-999px");
 
   return (
     <>
       <section className="px-[20px] md:px-0 fixed top-0 w-[100%]  z-[100] bg-white py-[12px]">
-        <nav className=" md:max-w-[1240px] m-auto flex justify-between items-center h-[40px]">
+        <nav className=" md:max-w-[80%] m-auto flex justify-between items-center h-[40px]">
           <div className="flex items-center gap-[10px]">
             <div
               className="block md:hidden cursor-pointer"

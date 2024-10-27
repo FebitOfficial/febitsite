@@ -8,33 +8,8 @@ const Events = () => {
   return (
     <div className="pt-[40px] pb-[20px] md:pt-[50px] md:pb-[35px]  bg-bgSecondary">
       <h1 className="text-center text-[26px]  md:max-w-full m-auto md:m-0 md:text-[40px] font-[600]">
-        Upcoming Projects
+        Latest Projects
       </h1>
-      <div className="flex items-center py-[20px]">
-        {" "}
-        <p className="bg-[#F5FFFE] p-[10px] text-[12px] md:text-[16px] text-secondary satoshi font-[700] w-[200px] text-center">
-          LATEST NEWS
-        </p>{" "}
-        <marquee direction="left" className="bg-[#EEEEEE] p-[10px]">
-          <div className="flex gap-[10px]">
-            <p className="satoshi font-[400] text-[16px] flex items-center gap-[5px]">
-              <Dot />
-              India produces about 75 of the 109 varieties listed by the
-              International Organization for Standardization (ISO)
-            </p>
-            <p className="satoshi font-[400] text-[16px] flex items-center gap-[5px]">
-              <Dot />
-              India produces about 75 of the 109 varieties listed by the
-              International Organization for Standardization (ISO)
-            </p>
-            <p className="satoshi font-[400] text-[16px] flex items-center gap-[5px]">
-              <Dot />
-              India produces about 75 of the 109 varieties listed by the
-              International Organization for Standardization (ISO)
-            </p>
-          </div>
-        </marquee>
-      </div>
 
       <div className=" max-w-[358px] md:max-w-[1240px] m-auto flex flex-col gap-[16px] pt-[37px]">
         {eventsCards.map((item) => (
@@ -61,11 +36,6 @@ const Events = () => {
             </div>
           </div>
         ))}
-        <button
-          className={` md:mt-[40px]  flex items-center justify-center border-[1px] w-full md:w-[250px] md:justify-self-center md:self-center border-secondary rounded-[5px]  py-[15px] font-[500] gap-[7.5px] text-secondary`}
-        >
-          <p>View All Events</p>
-        </button>
       </div>
     </div>
   );
